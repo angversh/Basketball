@@ -2,10 +2,6 @@ import java.lang.Math;
 import java.util.*;
 import java.util.Scanner;
 
-/* The Basketball is game which allows you to play as Hender College's captain
-  and playmaker. The game uses set probabilities to simulate outcomes of each
-  possession. You are able to choose your shot types & defensive formations */
-
 public class Basketball {
     int time = 0;
     int[] score = {0, 0};
@@ -60,7 +56,7 @@ public class Basketball {
     }
 
     // adds points to the score
-    // team can take 0 or 1, for opponent or Hender, respectively
+    // team can take 0 or 1, for opponent or Hender
     private void add_points(int team, int points) {
         score[team] += points;
         print_score();
